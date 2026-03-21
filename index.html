@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ritika Bajgain | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ─── NAVBAR ─── -->
+  <nav class="navbar" id="navbar">
+    <a href="#" class="logo">RB</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#volunteer">Volunteer</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#awards">Awards</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">🌙</button>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content fade-up">
+      <span class="availability-badge">
+        <span class="pulse-dot"></span>
+        AVAILABLE FOR FULL-TIME OPPORTUNITIES
+      </span>
+      <h1 class="hero-name">
+        Ritika<br />
+        <span class="gradient-text">Bajgain</span>
+      </h1>
+      <p class="hero-desc">
+        <span class="highlight-text">CS + Math student</span> at ULM building AI-powered apps, leading tech communities, and conducting research. I turn complex problems into elegant, user-centered solutions.
+      </p>
+      <div class="hero-tags">
+        <span class="tag"><span class="tag-dot purple"></span>Full-Stack Dev</span>
+        <span class="tag"><span class="tag-dot green"></span>AI Integrations</span>
+        <span class="tag"><span class="tag-dot pink"></span>Research</span>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-number">4.0</span><span class="stat-label">GPA</span></div>
+        <div class="stat"><span class="stat-number">12+</span><span class="stat-label">AWARDS</span></div>
+        <div class="stat"><span class="stat-number">5+</span><span class="stat-label">CLUBS & ORGS</span></div>
+      </div>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">✦ View My Work</a>
+        <a href="#contact" class="btn btn-outline">✉ Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="section" id="about">
+    <div class="container">
+      <span class="section-label fade-up">── ABOUT ME</span>
+      <h2 class="section-title fade-up">Building things that <span class="highlight-text">matter</span></h2>
+      <div class="education-card fade-up">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-info">
+          <h3>University of Louisiana Monroe</h3>
+          <p class="edu-degree">B.S. in Computer Science · Minor in Mathematics (Honors)</p>
+          <span class="gpa-badge">⭐ GPA 4.0 / 4.0</span>
+          <p class="edu-location">Monroe, Louisiana · Expected Graduation: May 2026</p>
+          <div class="edu-coursework">
+            <span class="coursework-label">RELEVANT COURSEWORK</span>
+            <div class="coursework-tags">
+              <span class="coursework-tag">Analysis of Algorithms</span>
+              <span class="coursework-tag">Data Structures</span>
+              <span class="coursework-tag">Computer Architecture</span>
+              <span class="coursework-tag">Operating Systems</span>
+              <span class="coursework-tag">OOP</span>
+              <span class="coursework-tag">Database Management</span>
+              <span class="coursework-tag">Software Engineering</span>
+              <span class="coursework-tag">Calculus I & II</span>
+              <span class="coursework-tag">Cryptology</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section class="section" id="skills">
+    <div class="container">
+      <span class="section-label fade-up">── TECHNICAL SKILLS</span>
+      <h2 class="section-title fade-up">What I <span class="highlight-text">work with</span></h2>
+      <div class="skills-grid">
+        <div class="skill-card fade-up">
+          <div class="skill-icon">💻</div>
+          <h3 class="skill-category">LANGUAGES</h3>
+          <div class="skill-tags">
+            <span>Python</span><span>Java</span><span>JavaScript</span>
+            <span>TypeScript</span><span>SQL</span><span>HTML</span><span>CSS</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up" style="animation-delay:0.1s">
+          <div class="skill-icon">⚙️</div>
+          <h3 class="skill-category">FRAMEWORKS & LIBRARIES</h3>
+          <div class="skill-tags">
+            <span>React</span><span>Tailwind CSS</span><span>MediaPipe</span>
+            <span>Google Cloud Vision API</span><span>Firebase</span>
+          </div>
+        </div>
+        <div class="skill-card fade-up" style="animation-delay:0.2s">
+          <div class="skill-icon">🛠️</div>
+          <h3 class="skill-category">TOOLS & TECHNOLOGIES</h3>
+          <div class="skill-tags">
+            <span>Git</span><span>GitHub</span><span>AWS</span><span>Figma</span>
+            <span>VS Code</span><span>IntelliJ IDEA</span><span>jGRASP</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="section-label fade-up">── EXPERIENCE</span>
+      <h2 class="section-title fade-up">My <span class="highlight-text">journey</span> so far</h2>
+      <div class="timeline">
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">🏗️</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Technical Lead & Graphic Designer</h3>
+                <p class="timeline-org">Girls Who Code (GWC) · University of Louisiana Monroe</p>
+              </div>
+              <span class="timeline-date">Oct 2024 – Present</span>
+            </div>
+            <p class="timeline-desc">Leading the technical arm of ULM's GWC chapter - from deploying the chapter's public-facing website to running workshops that spark curiosity in the next generation of developers.</p>
+            <ul class="timeline-bullets">
+              <li>Designed and deployed a React.js website serving 20+ active members organization, boosting the club's online presence</li>
+              <li>Ran a hands-on HTML workshop for 20+ middle school students, helping them in their coding journey</li>
+              <li>Created event's promotional flyers that directly contributed to measurable growth in member participation</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>React.js</span><span>Web Dev</span><span>Leadership</span><span>Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">➗</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Math Tutor</h3>
+                <p class="timeline-org">Math Resource Center (MRC) · University of Louisiana Monroe</p>
+              </div>
+              <span class="timeline-date">Jan 2023 – Present</span>
+            </div>
+            <p class="timeline-desc">Math isn't scary - it just needs the right explanation. At the MRC, I make Calculus, Algebra, and Statistics feel approachable for every kind of learner.</p>
+            <ul class="timeline-bullets">
+              <li>Tutors an average of 8 students weekly across Calculus, Algebra, and Statistics</li>
+              <li>Supports 30+ students per semester through both one-on-one and group sessions, strengthening their problem-solving skills</li>
+              <li>Develops individualized strategies for each student, earning consistent praise from tutees and faculty supervisors</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Mathematics</span><span>Teaching</span><span>Student Support</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">🔬</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Undergraduate Research Assistant</h3>
+                <p class="timeline-org">University of Louisiana Monroe · Processor Architecture & Security</p>
+              </div>
+              <span class="timeline-date">Jan 2025 – May 2025</span>
+            </div>
+            <p class="timeline-desc">Dove deep into the world of modern processor design - comparing heterogeneous and security processors across evolving hardware trends and findings in published peer-reviewed paper.</p>
+            <ul class="timeline-bullets">
+              <li>Synthesized 10+ peer-reviewed papers on processor evolution, performance benchmarks, and security considerations</li>
+              <li>Co-authored <em>"A Comparative Analysis of Heterogeneous and Security Processors Based on Processor Evolution Trends"</em>, published at an international academic conference</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Published Research</span><span>Computer Architecture</span><span>Academic Writing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">🔒</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Undergraduate Research Assistant</h3>
+                <p class="timeline-org">University of Louisiana Monroe · Machine Learning Security</p>
+              </div>
+              <span class="timeline-date">Aug 2024 – Dec 2024</span>
+            </div>
+            <p class="timeline-desc">Explored the vulnerabilities lurking inside machine learning models - specifically the threat of model-stealing attacks and what can be done to stop them.</p>
+            <ul class="timeline-bullets">
+              <li>Analyzed ML model phases, applications, and theft vulnerabilities in collaboration with a faculty researcher</li>
+              <li>Evaluated 3 types of model-stealing attacks in depth, uncovering the mechanisms and real-world implications behind each</li>
+              <li>Produced a comprehensive research report with proposed defense strategies to counter model theft</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Machine Learning</span><span>AI Security</span><span>Research</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">🎮</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Emerging Scholar</h3>
+                <p class="timeline-org">University of Louisiana Monroe</p>
+              </div>
+              <span class="timeline-date">Feb 2024 – May 2024</span>
+            </div>
+            <p class="timeline-desc">Investigated how gamification - borrowing mechanics from games - can transform the way students learn and stay engaged in coursework.</p>
+            <ul class="timeline-bullets">
+              <li>Reviewed 6+ scholarly articles on gamification principles and their application to educational outcomes</li>
+              <li>Implemented gamified learning apps across 3 courses with instructors, achieving a 20% improvement in course completion rate</li>
+              <li>Documented insights into how game-like structures raise engagement and motivation in academic settings</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>EdTech</span><span>Gamification</span><span>Research</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── VOLUNTEER ─── -->
+  <section class="section" id="volunteer">
+    <div class="container">
+      <span class="section-label fade-up">── VOLUNTEER WORK</span>
+      <h2 class="section-title fade-up">Giving back to the <span class="highlight-text">community</span></h2>
+      <div class="timeline">
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">⭐</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Big Peep — Honors Program Mentor</h3>
+                <p class="timeline-org">University of Louisiana Monroe · Honors Program</p>
+              </div>
+              <span class="timeline-date">Aug 2024 – Dec 2024</span>
+            </div>
+            <p class="timeline-desc">Took a first-year student under my wing - offering guidance, perspective, and a friendly face in the sometimes-overwhelming first semester of college.</p>
+            <ul class="timeline-bullets">
+              <li>Provided personalized mentorship to a Little Peep through regular check-ins covering academics, campus life, and time management</li>
+              <li>Acted as a trusted resource within the Honors community, fostering a sense of belonging and confidence</li>
+              <li>Participated in Honors Program events that strengthened peer bonds and student engagement</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Mentorship</span><span>Honors Program</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-up">
+          <div class="timeline-icon">🌟</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3>Peer Leader — Honors Program</h3>
+                <p class="timeline-org">University of Louisiana Monroe · Honors Program</p>
+              </div>
+              <span class="timeline-date">Sep 2023 – Nov 2023</span>
+            </div>
+            <p class="timeline-desc">Guided 67 incoming first-year students through the transition to college - helping them find their footing academically, socially, and personally.</p>
+            <ul class="timeline-bullets">
+              <li>Mentored a cohort of 67 students, connecting them with campus resources, academic planning tools, and social opportunities</li>
+              <li>Drove 80% participation in campus events among my mentees in their very first semester</li>
+              <li>Managed weekly Moodle announcements to ensure timely communication between students and faculty</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Leadership</span><span>Mentorship</span><span>Communication</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="section-label fade-up">── PROJECTS</span>
+      <h2 class="section-title fade-up">Things I've <span class="highlight-text">built</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card fade-up">
+          <div class="project-header">
+            <div class="project-icon">🏃</div>
+            <a href="#" class="project-link" aria-label="External link">↗</a>
+          </div>
+          <h3>Athlyze</h3>
+          <span class="project-badge trophy">🏆 Finalist · Nexus Louisiana DevDays HealthTech Competition</span>
+          <p>An AI-powered sports health platform tackling ACL injury prevention - because athlete well-being goes far beyond the scoreboard. Built with real-time pose detection and role-specific experiences for athletes, coaches, and physical therapists.</p>
+          <ul class="project-features">
+            <li><strong>Real-time pose detection</strong> via MediaPipe Vision analyzing uploaded videos for ACL-prone movement patterns and flagging risk before injury occurs</li>
+            <li><strong>3 distinct user roles</strong> - athletes, coaches, and physical therapists each get tailored dashboards and role-specific access</li>
+            <li><strong>PIN-protected journaling</strong> gives athletes a private space to track their mental and emotional well-being alongside physical recovery</li>
+            <li><strong>Female athlete features</strong> including menstrual cycle tracking and data-driven injury risk correlation exercises</li>
+          </ul>
+          <div class="project-tags">
+            <span>React</span><span>TypeScript</span><span>Firebase</span><span>MediaPipe</span><span>AI / ML</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-up" style="animation-delay:0.1s">
+          <div class="project-header">
+            <div class="project-icon">♾️</div>
+          </div>
+          <h3>Threaded</h3>
+          <span class="project-badge">🥈 Hawkathon 2025 · GDSC at ULM</span>
+          <p>A platform that stitches together donors and nonprofits - making it effortless for people to give and for organizations to receive. Built under hackathon pressure at Hawkathon, organized by the Google Developer Student Club at ULM.</p>
+          <ul class="project-features">
+            <li><strong>Real-time item discovery</strong> powered by Firebase, so donors and recipients always see live inventory</li>
+            <li><strong>Full auth + database</strong> with Firebase handling user authentication and live tracking of available and accepted donations</li>
+            <li><strong>Google Cloud Vision API</strong> auto-classifies donation photos and generates descriptions, eliminating manual data entry entirely</li>
+          </ul>
+          <div class="project-tags">
+            <span>React.js</span><span>Firebase</span><span>Tailwind CSS</span><span>Google Cloud Vision</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card fade-up" style="animation-delay:0.2s">
+          <div class="project-header">
+            <div class="project-icon">👩‍💻</div>
+            <a href="#" class="project-link" aria-label="External link">↗</a>
+          </div>
+          <h3>GWC ULM Chapter Website</h3>
+          <span class="project-badge green">🌐 Girls Who Code · University of Louisiana Monroe</span>
+          <p>The official website for ULM's Girls Who Code chapter - built to give the organization a professional online home, surface upcoming events, and welcome prospective members from across campus and the community.</p>
+          <ul class="project-features">
+            <li><strong>Fully responsive</strong> React.js site serving 20+ active chapter members with clean, accessible design across all devices</li>
+            <li><strong>Custom branding</strong> aligned with GWC's identity, with promotional assets that drove measurable growth in member participation</li>
+            <li><strong>Deployed on GitHub Pages</strong> - live, publicly accessible, and maintained as an ongoing technical initiative</li>
+          </ul>
+          <div class="project-tags">
+            <span>React.js</span><span>GitHub Pages</span><span>CSS</span><span>Figma</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── RESEARCH ─── -->
+  <section class="section" id="research">
+    <div class="container">
+      <span class="section-label fade-up">── RESEARCH & PUBLICATIONS</span>
+      <h2 class="section-title fade-up">Contributing to <span class="highlight-text">knowledge</span></h2>
+      <div class="research-card fade-up">
+        <div class="research-icon">📄</div>
+        <div class="research-info">
+          <h3>A Comparative Analysis of Heterogeneous and Security Processors Based on Processor Evolution Trends</h3>
+          <p class="research-meta">Co-authored · Published at HUIC STEM 2025 · Jan 2025 – May 2025</p>
+          <p class="research-desc">Explored how processor design has evolved across heterogeneous and security-focused architectures, synthesizing findings from 10+ peer-reviewed sources to contribute original analysis on performance, security trade-offs, and future directions in processor design.</p>
+          <a href="#" class="research-link">📖 Read the Paper ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── AWARDS ─── -->
+  <section class="section" id="awards">
+    <div class="container">
+      <span class="section-label fade-up">── HONORS & AWARDS</span>
+      <h2 class="section-title fade-up">Recognition along the <span class="highlight-text">way</span></h2>
+      <div class="awards-grid">
+        <div class="award-card fade-up"><span class="award-emoji">🏆</span><h4>William D. Hoover Major Impact Scholarship</h4><p>January 2026</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>December 2025</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🎖️</span><h4>Honors Scholarship</h4><p>August 2025</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏆</span><h4>William D. Hoover Major Impact Scholarship</h4><p>August 2025</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>May 2025</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>December 2024</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">💎</span><h4>Upsilon Pi Epsilon Honor Society</h4><p>November 2024</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🎖️</span><h4>Honors Scholarship</h4><p>August 2024</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>May 2024</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>December 2023</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>May 2023</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🏅</span><h4>President's List</h4><p>December 2022</p></div>
+        <div class="award-card fade-up"><span class="award-emoji">🌍</span><h4>President's Distinguished International Award</h4><p>August 2022</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CAMPUS INVOLVEMENT ─── -->
+  <section class="section" id="involvement">
+    <div class="container">
+      <span class="section-label fade-up">── CAMPUS INVOLVEMENT</span>
+      <h2 class="section-title fade-up">Community & <span class="highlight-text">connection</span></h2>
+      <div class="involvement-grid">
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">👩‍💻</div>
+          <h4>Girls Who Code</h4>
+          <p>GWC · Technical Lead</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🔑</div>
+          <h4>Upsilon Pi Epsilon</h4>
+          <p>UPE · CS Honor Society</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🎪</div>
+          <h4>Campus Activities Board</h4>
+          <p>CAB</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">💻</div>
+          <h4>Google Developer Student Club</h4>
+          <p>GDSC</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🖥️</div>
+          <h4>Assoc. for Computing Machinery</h4>
+          <p>ACM</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🇳🇵</div>
+          <h4>Nepalese Student Association</h4>
+          <p>NSA</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🦅</div>
+          <h4>Hawk's Nest</h4>
+          <p>Student Org</p>
+        </div>
+        <div class="involvement-card fade-up">
+          <div class="involvement-logo">🎓</div>
+          <h4>Honors Program</h4>
+          <p>ULM Honors · Peer Leader & Big Peep</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card fade-up">
+        <span class="section-label center">── GET IN TOUCH</span>
+        <h2 class="section-title center">Let's build something <span class="highlight-text">great</span> together</h2>
+        <p class="contact-desc">Whether you're looking for an internship collaborator, a research partner, or just want to say hi - my inbox is always open.</p>
+        <div class="contact-buttons">
+          <a href="#" class="btn btn-primary">📄 View Resume</a>
+          <a href="#" class="btn btn-outline">📋 View Cover Letter</a>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:bajgainritika@gmail.com" class="contact-link">✉ bajgainritika@gmail.com</a>
+          <a href="#" class="contact-link">in LinkedIn</a>
+          <a href="tel:+13186909544" class="contact-link">📞 (318) 690-9544</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <p>Designed & built by Ritika Bajgain</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
